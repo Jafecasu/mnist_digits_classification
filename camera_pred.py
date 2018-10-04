@@ -7,6 +7,8 @@ import digit_recognizer as dr
 import LRmodel
 
 cap = cv2.VideoCapture(0)
+ds_factor = 1.9
+
 # collection of points to draw
 center_points = deque()
 
